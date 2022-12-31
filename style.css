@@ -1,8 +1,66 @@
 
-.kuning {
+body {
     background-color: yellow;
+  }
+  .belakang {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #b71c1c, #1a237e);
+    height: 100%;
 }
+
 .custom-header {
     
     border-bottom: 1px solid black;
+    
 }
+.btn1 {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 0.6em;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn1:hover, .btn:focus {
+    color: black;
+    outline: 0;
+  }
+  
+  .first {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px yellow inset;
+  }
+  .sky-neon {
+    color: black;
+    background-color: rgb(234, 238, 4);
+    -webkit-transition: .3s all ease-in;
+    transition: .3s all ease-in;
+    border: 2px solid transparent;
+}
+ 
+.sky-neon:hover, .sky-neon:focus {
+    color: black;
+    -webkit-box-shadow: 0px 0px 20px 15px #aed83c;
+    box-shadow: 0px 0px 30px 20px #ecd60a;
+    background-color: #fbfcf4;
+}
+ 
